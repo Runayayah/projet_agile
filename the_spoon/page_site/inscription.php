@@ -49,6 +49,7 @@
 
         if ($requete->execute()) {
             echo "Données insérées avec succès.";
+            header("Location:connexion.html");
         } else {
             echo "Erreur lors de l'insertion des données : " . $requete->error;
         }
