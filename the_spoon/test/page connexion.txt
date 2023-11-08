@@ -1,0 +1,5 @@
+- Connexion :
+-> Entrer son email
+-> Entrer son mot de passe
+	-> Connexion > amène à la page d'accueil selon le rôle
+	-> Retour page d'accueil

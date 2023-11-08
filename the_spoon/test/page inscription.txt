@@ -1,0 +1,8 @@
+- Inscription :
+-> Entrer son nom
+-> Entrer son prénom
+-> Entrer son email
+-> Entrer son mdp
+-> Sélectionner son rôle
+	-> S'inscrire > amène sur la page d'accueil en fonction du rôle sélectionné (restaurateur ou non)
+	-> Retour page d'accueil
