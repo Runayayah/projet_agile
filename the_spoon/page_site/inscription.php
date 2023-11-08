@@ -20,7 +20,12 @@
         $prenom=$_POST["prenom"];
         $password=$_POST["password"];
         $num_tel=$_POST["num_tel"];
-        $role=$_POST["restaurateur"];
+        if (isset($_POST['restaurateur'])) {
+            $restaurateur=TRUE;
+         } else {
+            $restaurateur=FALSE;
+         }
+        
 
         // Connexion à la base de données
         $serveur = "localhost"; // Remplacez par l'adresse de votre serveur MySQL
@@ -37,10 +42,10 @@
         }
 
         // Préparation de la requête d'insertion
-        $requete = $connexion->prepare("INSERT INTO individu (nom, adresse_mail) VALUES (?, ?)");
+        $requete = $connexion->prepare('INSERT INTO individu (nom, prenom, adresse_mail,numero_tel,role,mot_de_passe) VALUES ("' . $nom . '", "' . $prenom . '", "' . $email . '", "' . $num_tel . '", "' . $restaurateur . '", "' . $password . '")'); // (?, ?, ?)
 
         // Liaison des paramètres et exécution de la requête
-        $requete->bind_param("ss", $nom, $email);
+        // $requete->bind_param("ss", $nom, $prenom, $email);
 
         if ($requete->execute()) {
             echo "Données insérées avec succès.";
