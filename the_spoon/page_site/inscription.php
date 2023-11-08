@@ -22,8 +22,10 @@
         $num_tel=$_POST["num_tel"];
         if (isset($_POST['restaurateur'])) {
             $restaurateur=TRUE;
+            $url_renvoi="index_restaurateur.html";
          } else {
             $restaurateur=FALSE;
+            $url_renvoi="index_client.html";
          }
         
 
@@ -49,7 +51,7 @@
 
         if ($requete->execute()) {
             echo "Données insérées avec succès.";
-            header("Location:connexion.html");
+            header("Location:".$url_renvoi);
         } else {
             echo "Erreur lors de l'insertion des données : " . $requete->error;
         }
