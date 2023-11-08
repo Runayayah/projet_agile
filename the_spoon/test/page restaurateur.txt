@@ -1,0 +1,4 @@
+- Index_restaurateur :
+-> Cliquer sur Mon restaurant > amène sur les informations concernant mon restaurant
+-> Naviguer sur la carte
+-> Cliquer sur les restaurants mis en avant > amène à la page des restaurants

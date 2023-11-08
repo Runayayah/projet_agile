@@ -1,0 +1,9 @@
+Faire les tests : 
+
+- Index :
+-> Cliquer sur connexion > amène à la page de connexion
+-> Cliquer sur inscription > amène à la page d'inscription
+-> Cliquer sur contact > amène à la page correspondante
+-> Naviguer sur la carte
+-> Cliquer sur les restaurants mis en avant > amène à la page des restaurants
+
