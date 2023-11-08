@@ -6,8 +6,6 @@
     <link href="styles_site/style_index.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    
-
     <title>Accueil - Site TheSpoon</title>
 </head>
 <body>
@@ -18,10 +16,9 @@
 
     <nav class="navbar"> 
             <a href="../the_spoon/page_site/connexion.html">Connexion</a> 
-            <a href="../the_spoon/page_site/inscription.html">Inscription</a> 
+            <a href="../the_spoon/page_site/inscription.php">Inscription</a> 
             <a href="#">Contact</a>
     </nav>
-
     <div id="map" style="width: 100%; height: 500px;"></div>
     <script>
         var map = L.map('map').setView([48.8566, 2.3522], 13);
@@ -35,9 +32,11 @@
             //.openPopup();
     </script>
 
-    
     <div class="main">
-        
+        <div class="card">
+            <h3>Card Title</h3>
+            <p>Card content</p>
+        </div>
         <div class="card">
             <h3>Card Title</h3>
             <p>Card content</p>
