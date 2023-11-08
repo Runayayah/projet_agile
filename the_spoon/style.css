@@ -7,12 +7,14 @@ body {
 header {
     background-color: #1e252c;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 1rem;
 }
 
-main {
+.main {
     padding: 2rem;
+    margin-top: 1rem;
+    text-align:center;
 }
 
 .logo {
@@ -20,14 +22,14 @@ main {
     margin: 1rem auto;
 }
 
-.navbar {
-    display: flex;
+.navbar {   
+    text-align: right;
     background-color: #333;
     padding: 1rem;
 }
 
 .navbar a {
-    color: white;
+    color: white;   
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -64,8 +66,11 @@ main {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: #1e252c;
     color: white;
     text-align: center;
-    padding: 1rem;
+
 }
