@@ -2,14 +2,6 @@
 
 ## Répertoire
 
-##Lancer le projet avec XAMPP
-
-Pour faire fonctionner le projet, il est nécessaire de lancer XAMPP pour bénificer de phpMyAmdin et pouvoir lire les fichiers PHP.
-Il faut cloner le repo github dans votre dossier C/XAMPP/HTDOCS.
-
-Pour créer la bdd, connectez vous à localhost/PhpMyAdmin et importer le fichier SQL disponible dans le repo.
-Ensuite pour lire un fichier php, il faut saisir dans votre barre d'URL : http://localhost/projet%20agile/projet_agile/the_spoon/index.html.
-
 Le dossier the_spoon contiendra l'ensemble des fichiers nécessaires à la création du site HTML
 Dans ce dernier, nous retrouverons directement index.html, autrement dit la page d'accueil du site.
 
@@ -23,3 +15,11 @@ Contient l'ensemble des fichiers css
 
 ### page_site
 Contient l'ensemble des pages (html et php) 
+
+##Lancer le projet avec XAMPP
+
+Pour faire fonctionner le projet, il est nécessaire de lancer XAMPP pour bénificer de phpMyAmdin et pouvoir lire les fichiers PHP.
+Il faut cloner le repo github dans votre dossier C/XAMPP/HTDOCS.
+
+Pour créer la bdd, connectez vous à localhost/PhpMyAdmin et importer le fichier SQL disponible dans le repo (the spoon.sql).
+Ensuite pour lire un fichier php, il faut saisir dans votre barre d'URL : http://localhost/projet%20agile/projet_agile/the_spoon/index.html.
