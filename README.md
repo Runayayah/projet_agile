@@ -6,6 +6,8 @@
 
 Pour faire fonctionner le projet, il est nécessaire de lancer XAMPP pour bénificer de phpMyAmdin et pouvoir lire les fichiers PHP.
 Il faut cloner le repo github dans votre dossier C/XAMPP/HTDOCS.
+
+Pour créer la bdd, connectez vous à localhost/PhpMyAdmin et importer le fichier SQL disponible dans le repo.
 Ensuite pour lire un fichier php, il faut saisir dans votre barre d'URL : http://localhost/projet%20agile/projet_agile/the_spoon/index.html.
 
 Le dossier the_spoon contiendra l'ensemble des fichiers nécessaires à la création du site HTML
