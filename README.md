@@ -16,7 +16,7 @@ Contient l'ensemble des fichiers css
 ### page_site
 Contient l'ensemble des pages (html et php) 
 
-##Lancer le projet avec XAMPP
+## Lancer le projet avec XAMPP
 
 Pour faire fonctionner le projet, il est nécessaire de lancer XAMPP pour bénificer de phpMyAmdin et pouvoir lire les fichiers PHP.
 Il faut cloner le repo github dans votre dossier C/XAMPP/HTDOCS.
